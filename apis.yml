@@ -1,7 +1,18 @@
 aid: entera
 name: Entera
-description: Entera is a company surfaced as a portfolio company of bullpen-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Entera is an AI-powered SaaS and services platform for single-family rental
+  (SFR) real estate investing, describing itself as the operating system for
+  single-family real estate. It helps operators, funds, new-construction
+  companies, agents, and service partners buy, sell, and operate homes at scale
+  across 34+ U.S. residential markets. The platform spans acquisitions
+  (asset discovery, underwriting, diligence coordination), dispositions
+  (pricing, buyer targeting, offer management), transaction enablement, market
+  data and intelligence, and expert brokerage services. Entera is backed by
+  investors including Goldman Sachs Asset Management and Bullpen Capital. As of
+  this enrichment pass Entera exposes no public developer portal, API
+  documentation, or OpenAPI/SDK surface; this profile captures its published
+  company, legal, and brand properties plus a live domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/entera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - bullpen-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Single-Family Rental
+- SFR
+- Real Estate Investing
+- Property Data
+- Real Estate Analytics
+image: https://www.entera.ai/images/entera-og-tag.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.entera.ai
+- type: Blog
+  url: https://www.entera.ai/blog/
+- type: TermsOfService
+  url: https://www.entera.ai/legal/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.entera.ai/legal/privacy-notice/
+- type: Login
+  url: https://app.entera.ai/
+- type: Support
+  url: https://www.entera.ai/contact/social/
+- type: GitHubOrganization
+  url: https://github.com/entera-ai
+- type: DomainSecurity
+  url: security/entera-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
