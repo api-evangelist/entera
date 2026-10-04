@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Single-Family Rental
 - SFR
@@ -63,6 +63,7 @@ tags_raw:
 - Real Estate Investing
 - Property Data
 - Real Estate Analytics
+- Real-Estate
 image: https://www.entera.ai/images/entera-og-tag.png
 apis: []
 maintainers:
